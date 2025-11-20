@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_service_subcategory",
+  "info": {
+    "displayName": "Service Subcategory"
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.service-item"
+    }
+  }
+}
