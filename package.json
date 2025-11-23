@@ -1,5 +1,5 @@
 {
-  "name": "vetcat-db",
+  "name": "strapi-2",
   "version": "0.1.0",
   "private": true,
   "description": "A Strapi application",
@@ -15,22 +15,22 @@
     "upgrade:dry": "npx @strapi/upgrade latest --dry"
   },
   "dependencies": {
-    "@strapi/plugin-cloud": "5.31.0",
-    "@strapi/plugin-users-permissions": "5.31.0",
-    "@strapi/strapi": "5.31.0",
+    "@strapi/plugin-cloud": "5.31.2",
+    "@strapi/plugin-users-permissions": "5.31.2",
+    "@strapi/strapi": "5.31.2",
     "better-sqlite3": "12.4.1",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
-    "react-router-dom": "^7.9.6",
-    "styled-components": "^6.1.19"
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "styled-components": "^6.0.0"
   },
   "devDependencies": {},
   "engines": {
-    "node": ">=18.0.0 <=22.x.x",
+    "node": ">=20.0.0 <=24.x.x",
     "npm": ">=6.0.0"
   },
   "strapi": {
-    "uuid": "855ce74a-ed13-41b6-8346-14c30de1b657",
-    "installId": "b2a18899f01974c8dc964ceba0502b1c836ffa822bb7a9a420e806566db83297"
+    "uuid": "a9e52d0f-16a7-4443-868b-92134c5cac2f",
+    "installId": "2d15cec000e056acf71ef347c4d478dad8f1d557b160696c125133b25e2b6355"
   }
 }

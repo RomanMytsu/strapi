@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reviews",
+  "info": {
+    "singularName": "review",
+    "pluralName": "reviews",
+    "displayName": "Review"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "specialist_name": {
+      "type": "text",
+      "required": true
+    },
+    "review_text": {
+      "type": "text",
+      "required": true
+    },
+    "user_name": {
+      "type": "text",
+      "required": true
+    },
+    "user_email": {
+      "type": "email",
+      "required": true
+    },
+    "privacy_consent": {
+      "type": "boolean",
+      "required": true
+    }
+  }
+}
