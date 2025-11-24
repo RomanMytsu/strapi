@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_time_slots",
+  "info": {
+    "displayName": "slot"
+  },
+  "options": {},
+  "attributes": {
+    "from": {
+      "type": "string",
+      "regex": "^([01]\\d|2[0-3]):[0-5]\\d$"
+    },
+    "to": {
+      "type": "string",
+      "regex": "^([01]\\d|2[0-3]):[0-5]\\d$"
+    }
+  },
+  "config": {}
+}

@@ -22,11 +22,23 @@ export interface SharedServiceSubcategory extends Struct.ComponentSchema {
   };
 }
 
+export interface TimeSlot extends Struct.ComponentSchema {
+  collectionName: 'components_time_slots';
+  info: {
+    displayName: 'slot';
+  };
+  attributes: {
+    from: Schema.Attribute.String;
+    to: Schema.Attribute.String;
+  };
+}
+
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
       'shared.service-item': SharedServiceItem;
       'shared.service-subcategory': SharedServiceSubcategory;
+      'time.slot': TimeSlot;
     }
   }
 }
